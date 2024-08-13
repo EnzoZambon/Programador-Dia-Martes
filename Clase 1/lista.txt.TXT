@@ -3,5 +3,3 @@ yerba
 azucar
 bananas
 manzanas
-zanahoria
-papa
