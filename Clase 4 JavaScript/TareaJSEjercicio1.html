@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        const dist1 = parseInt(prompt("Ingrese la distancia a recorrer: "));
+
+        if (Number.isNaN(dist1)) { document.write("Ingresá un valor númerico"); }
+        else if (dist1 <= 1000) { document.write("Andá a pie"); }
+        else if (dist1 <= 10000) { document.write("Andá en bici"); }
+        else if (dist1 <= 30000) { document.write("Andá en colectivo"); }
+        else if (dist1 <= 100000) { document.write("Andá en auto"); }
+        else { document.write("Andá en avión"); }
+    </script>
+</body>
+
+</html>

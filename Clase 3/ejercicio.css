@@ -30,3 +30,5 @@ flex: auto;}
 
 #caja6{background-color: cadetblue;width: 600px; position:absolute; top: 750px; left: 425px; size: 350px;
 flex-direction: column;}
+
+#cajapadre{width:5% ; margin:0 auto;}
