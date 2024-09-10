@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar color de fondo</title>
+</head>
+<body>
+    <h1>Hace click en los cuadrados para ver la magia</h1>
+
+    <div onclick="cambiaColor('red')" style="width: 50px; height: 50px; background-color: red; display: inline-block; "></div>
+    <div onclick="cambiaColor('yellow')" style="width: 50px; height: 50px; background-color: yellow; display: inline-block;"></div>
+    <div onclick="cambiaColor('blue')" style="width: 50px; height: 50px; background-color: blue; display: inline-block;"></div>
+
+
+    
+    <script>
+        function cambiaColor(color) {
+            document.body.style.backgroundColor = color;
+        }
+    </script>
+</body>
+
+</html>
